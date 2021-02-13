@@ -95,7 +95,7 @@ docker run -d -p 7070:8080 --name backend-ip ejercicio-be
 
 ##### Nota
 
-Para ver la tabla de la base, ingresar en http://localhost:7071/h2-console
+Para ver la tabla de la base, ingresar en http://localhost:7070/h2-console
 y usar las credenciales del archivo application.properties
 
 En heroku esta deshabilitada esa vista
