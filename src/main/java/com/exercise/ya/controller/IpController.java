@@ -25,8 +25,7 @@ public class IpController {
 	
 	@PostMapping("/trace")
 	public IpInfoResponse getTrace(@RequestBody IpInfoRequest request) {
-		IpInfoResponse response = ipService.getTrace(request);
-		return response;
+		return ipService.getTrace(request);
 	}
 	
 	@GetMapping("/stats")

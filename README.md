@@ -92,3 +92,20 @@ Ejecutar contenedor
 docker run -d -p 7070:8080 --name backend-ip ejercicio-be
 
 ```
+
+##### Nota
+
+Para ver la tabla de la base, ingresar en http://localhost:7071/h2-console
+y usar las credenciales del archivo application.properties
+
+En heroku esta deshabilitada esa vista
+
+### Pruebas
+
+* Probar funcionamiento de servicios externos
+* Casos de error y exito de los endpoints /trace y /stats
+
+```bash
+cd ejercicio-be-ip/
+mvn test
+```
